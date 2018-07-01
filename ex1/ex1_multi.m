@@ -83,8 +83,8 @@ fprintf('Running gradient descent ...\n');
 
 % Choose some alpha value
 %alpha =[1,0.3,0.1,0.03,0.01];
-alpha=1
-num_iters = 200;
+alpha=0.01
+num_iters = 1500;
 
 % Init Theta and Run Gradient Descent 
 theta = zeros(3, 1);
